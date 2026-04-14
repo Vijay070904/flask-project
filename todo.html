@@ -6,7 +6,12 @@
 <body>
     <h2>Add To-Do Item</h2>
     <form action="/submittodoitem" method="POST">
-        <input type="text" name="itemId" placeholder="Item ID">
+        <!-- item ID -->
+        <input type="text" name="itemId" placeholder="Item ID"> 
+        <!-- UUID -->
+        <input type="text" name="itemUUID" placeholder="Item UUID">
+         <!-- Commit -->
+        <input type="text" name="itemHash" placeholder="Item Hash">
         <input type="text" name="itemName" placeholder="Item Name"><br><br>
         <input type="text" name="itemDescription" placeholder="Item Description"><br><br>
         <button type="submit">Submit</button>
